@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS ODD and Even</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="heading">
+        <h1 id="oddNum">Odd</h1>
+        <h1>or</h1>
+        <h1 id="evenNum">Even</h1>
+      </div>
+
+      <form action="#" method="#" id="formOne">
+        <label for="input">Enter a Number:</label>
+        <input
+          type="number"
+          id="enterNumber"
+          name="enterNumber"
+          class="entNum"
+        />
+        <input
+          type="button"
+          value="Check"
+          id="checkBtn"
+          onclick="checkNumber()"
+          class="checkButton"
+        />
+        <input
+          type="reset"
+          value="Reset"
+          id="rReset"
+          class="resetBtn"
+          onclick="pleaseReset()"
+        />
+      </form>
+      <h2 id="display"></h2>
+    </div>
+
+    <script defer src="script/main.js"></script>
+  </body>
+</html>
